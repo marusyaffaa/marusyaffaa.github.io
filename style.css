@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.tuner-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.tuner-note {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    transition: .1s linear;
+}
+.tuner-pitch {
+    font-size: 30px;
+}
+
+.button {
+    padding: 10px;
+    height: 50px;
+    border: 1px solid dodgerblue;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.pointer {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+
+    border-bottom: 10px solid green;
+}

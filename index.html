@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tuner</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+    <div class="tuner-block">
+        <div class="tuner-note" id="note">E</div>
+        <div class="pointer"></div>
+        <div class="tuner-pitch" id="pitch">440hz</div>
+    </div>
+    <div class="activate">
+        <button id="mic_access" class="button">Запуск</button>
+    </div>
+</div>
+
+<script src='./fft.js/lib/real.js'></script>
+<script src='./fft.js/lib/complex.js'></script>
+<script src="./pitch.js/src/pitch.js"></script>
+<script src="./tuner.js"></script>
+</body>
+</html>
