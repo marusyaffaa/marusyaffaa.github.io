@@ -49,3 +49,7 @@
 
     border-bottom: 10px solid green;
 }
+
+body {
+    background-image: url(img/pc.png);
+}
