@@ -5,6 +5,8 @@
 }
 
 .main {
+    background-image: url(./img/pc.png);
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     background-color: #fff;
@@ -48,8 +50,4 @@
     border-right: 10px solid transparent;
 
     border-bottom: 10px solid green;
-}
-
-body {
-    background-image: url(img/pc.png);
 }
